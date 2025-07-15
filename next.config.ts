@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
+const repo = 'tailwindcss-typography-demo';
+
 const nextConfig: NextConfig = {
 	/* config options here */
 	output: "export",
-	basePath: '/tailwindcss-typography-demo',
+	basePath: `/${repo}`,
+	assetPrefix: `/${repo}/`,
 };
 
 export default nextConfig;
+
+
+

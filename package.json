@@ -2,12 +2,13 @@
   "name": "tailwindcss-typography",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oceanz.github.io/tailwindcss-typography-demo",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "github-deploy": "next build && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "next": "15.3.5",
