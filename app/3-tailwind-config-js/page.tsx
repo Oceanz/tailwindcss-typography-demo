@@ -1,3 +1,4 @@
+import Link from "next/link"
 import "../custom.css"
 
 export default function TailwindConfigJS() {
@@ -47,22 +48,22 @@ export default function TailwindConfigJS() {
 				<h4>功能展示</h4>
 				<ul>
 					<li>
-						<a href="/1-size-modifiers">Size Modifiers 内置字号调整工具</a>
+						<Link href="/1-size-modifiers">Size Modifiers 内置字号调整工具</Link>
 					</li>
 					<li>
-						<a href="/2-element-modifiers">Element Modifiers 个性化</a>
+						<Link href="/2-element-modifiers">Element Modifiers 个性化</Link>
 					</li>
 					<li>
-						<a href="/3-tailwind-config-js">Tailwind Config JS 个性化</a>
+						<Link href="/3-tailwind-config-js">Tailwind Config JS 个性化</Link>
 					</li>
 					<li>
-						<a href="/4-gray-scale">Gray Scale 灰度主题</a>
+						<Link href="/4-gray-scale">Gray Scale 灰度主题</Link>
 					</li>
 					<li>
-						<a href="/5-override-max-width">覆盖默认最大宽度</a>
+						<Link href="/5-override-max-width">覆盖默认最大宽度</Link>
 					</li>
 					<li>
-						<a href="/6-undo-style">撤销prose样式</a>
+						<Link href="/6-undo-style">撤销prose样式</Link>
 					</li>
 				</ul>
 			</div>

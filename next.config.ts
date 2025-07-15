@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 
-const repo = 'tailwindcss-typography-demo';
+const isProd = process.env.NODE_ENV === 'production'
+const repo = 'tailwindcss-typography-demo'
 
 const nextConfig: NextConfig = {
-	/* config options here */
 	output: "export",
-	basePath: `/${repo}`,
-	assetPrefix: `/${repo}/`,
+	basePath: isProd ? `/${repo}` : '',
+	assetPrefix: isProd ? `/${repo}/` : '',
 };
 
 export default nextConfig;

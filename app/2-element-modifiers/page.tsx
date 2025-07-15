@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Home() {
 	return (
 		<div className="flex flex-row space-x-6 items-start justify-center h-screen w-screen p-8">
@@ -45,16 +47,16 @@ export default function Home() {
 				<h4>功能展示</h4>
 				<ul>
 					<li>
-						<a href="/size-modifiers">Size Modifiers 内置字号调整工具</a>
+						<Link href="/size-modifiers">Size Modifiers 内置字号调整工具</Link>
 					</li>
 					<li>
-						<a href="/size-modifiers">自定义字号 & 颜色</a>
+						<Link href="/size-modifiers">自定义字号 & 颜色</Link>
 					</li>
 					<li>
-						<a href="/size-modifiers">不使用 typography 样式</a>
+						<Link href="/size-modifiers">不使用 typography 样式</Link>
 					</li>
 					<li>
-						<a href="/gray-scale">Gray Scale 灰度主题</a>
+						<Link href="/gray-scale">Gray Scale 灰度主题</Link>
 					</li>
 				</ul>
 			</div>
@@ -110,22 +112,22 @@ export default function Home() {
 				<h4>功能展示</h4>
 				<ul>
 					<li>
-						<a href="/1-size-modifiers">Size Modifiers 内置字号调整工具</a>
+						<Link href="/1-size-modifiers">Size Modifiers 内置字号调整工具</Link>
 					</li>
 					<li>
-						<a href="/2-element-modifiers">Element Modifiers 个性化</a>
+						<Link href="/2-element-modifiers">Element Modifiers 个性化</Link>
 					</li>
 					<li>
-						<a href="/3-tailwind-config-js">Tailwind Config JS 个性化</a>
+						<Link href="/3-tailwind-config-js">Tailwind Config JS 个性化</Link>
 					</li>
 					<li>
-						<a href="/4-gray-scale">Gray Scale 灰度主题</a>
+						<Link href="/4-gray-scale">Gray Scale 灰度主题</Link>
 					</li>
 					<li>
-						<a href="/5-override-max-width">覆盖默认最大宽度</a>
+						<Link href="/5-override-max-width">覆盖默认最大宽度</Link>
 					</li>
 					<li>
-						<a href="/6-undo-style">撤销prose样式</a>
+						<Link href="/6-undo-style">撤销prose样式</Link>
 					</li>
 				</ul>
 			</div>
