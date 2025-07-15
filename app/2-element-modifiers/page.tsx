@@ -121,6 +121,12 @@ export default function Home() {
 					<li>
 						<a href="/4-gray-scale">Gray Scale 灰度主题</a>
 					</li>
+					<li>
+						<a href="/5-override-max-width">覆盖默认最大宽度</a>
+					</li>
+					<li>
+						<a href="/6-undo-style">撤销prose样式</a>
+					</li>
 				</ul>
 			</div>
 		</div>
