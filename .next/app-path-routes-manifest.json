@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/3-tailwind-config-js/page": "/3-tailwind-config-js",
+  "/2-element-modifiers/page": "/2-element-modifiers",
+  "/6-undo-style/page": "/6-undo-style",
+  "/5-override-max-width/page": "/5-override-max-width",
+  "/page": "/",
+  "/1-size-modifiers/page": "/1-size-modifiers",
+  "/4-gray-scale/page": "/4-gray-scale"
+}
