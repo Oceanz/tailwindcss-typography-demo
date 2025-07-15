@@ -105,7 +105,7 @@ export default function GrayScalePage() {
 				{configurations.map((config, index) => (
 					<div
 						key={index}
-						className={`w-1/5 prose prose-invert p-2 rounded-lg border border-gray-300 shadow-sm ${config.proseClass}`}
+						className={`w-1/5 prose dark:prose-invert p-2 rounded-lg border border-gray-300 shadow-sm ${config.proseClass}`}
 						dangerouslySetInnerHTML={{
 							__html: generateHtmlCode(config.proseClass, config.title, config.subtitle),
 						}}
