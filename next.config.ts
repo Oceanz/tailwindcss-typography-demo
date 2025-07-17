@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === 'production'
-const repo = 'tailwindcss-typography-demo'
+const repo = 'zh-tailwindcss-typography-demo'
 
 const nextConfig: NextConfig = {
 	output: "export",
